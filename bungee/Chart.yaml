@@ -1,0 +1,23 @@
+apiVersion: v2
+name: bungee
+version: 1.3
+appVersion: SeeValues
+description: "Minecraft proxy server (BungeeCord, Waterfall, Velocity)"
+keywords:
+  - bungee
+  - game
+  - server
+home: "https://github.com/ArchitectSMP/charts"
+sources:
+  - "https://github.com/ArchitectSMP/charts"
+maintainers:
+  - name: Chip Wolf
+    email: hello@chipwolf.uk
+    url: chipwolf.uk
+icon: "https://avatars.githubusercontent.com/u/4350249"
+annotations:
+  artifacthub.io/links: |
+    - name: Image source
+      url: https://github.com/itzg/docker-bungeecord
+    - name: Image DockerHub
+      url: https://hub.docker.com/r/itzg/bungeecord
